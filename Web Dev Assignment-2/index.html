@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async Weather Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Tracker</h1>
+        
+        <div class="search-box">
+            <input type="text" id="cityInput" placeholder="Enter city name...">
+            <button id="searchBtn">Search</button>
+        </div>
+
+        <div id="weatherDisplay" class="weather-card">
+            <p>Search for a city to see weather details.</p>
+        </div>
+
+        <div class="history-section">
+            <h3>Recent Searches</h3>
+            <ul id="historyList"></ul>
+            <button id="clearHistory">Clear History</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

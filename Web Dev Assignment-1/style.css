@@ -1,0 +1,100 @@
+*{
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body{
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(to right, #ff1616, #1500ff);
+}
+
+header{
+  text-align: center;
+  padding: 16px;
+  font-size: 22px;
+  font-weight: bold;
+  color: rgb(217, 255, 0);
+}
+
+.container{
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card{
+  background: rgb(0, 0, 0);
+  border-radius: 14px;
+  padding: 18px;
+  box-shadow: 0 5px 5px rgb(60, 244, 254);
+}
+
+.form-card{
+  width: 320px;
+}
+
+.events-card{
+  flex: 1;
+}
+
+.card h3{
+  color: #ff8400;
+  margin-bottom: 14px;
+}
+
+label{
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+}
+
+input, select, textarea{
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ffffff;
+  margin-top: 4px;
+}
+
+textarea{
+  resize: none;
+  height: 70px;
+}
+
+button{
+  background: linear-gradient(to right, #00ff99, #8a00ed);
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.form-card button{
+  width: 100%;
+  margin-top: 14px;
+}
+
+.actions{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.actions button{
+  flex: 1;
+}
+
+#emptyMsg{
+  color: #ff0000;
+  font-size: 14px;
+}
+
+.event{
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
