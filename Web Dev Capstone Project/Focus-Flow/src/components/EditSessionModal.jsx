@@ -45,7 +45,7 @@ const EditSessionModal = ({ session, onClose }) => {
           </button>
         </div>
 
-        {/* Goal */}
+
         <div className="mb-4">
           <label className="text-xs font-semibold uppercase tracking-wider mb-2 block"
             style={{ color: 'var(--text-secondary)' }}>
@@ -66,7 +66,6 @@ const EditSessionModal = ({ session, onClose }) => {
           </p>
         </div>
 
-        {/* Mood */}
         <div className="mb-4">
           <label className="text-xs font-semibold uppercase tracking-wider mb-2 block"
             style={{ color: 'var(--text-secondary)' }}>
@@ -92,7 +91,6 @@ const EditSessionModal = ({ session, onClose }) => {
           </div>
         </div>
 
-        {/* Tags */}
         <div className="mb-5">
           <label className="text-xs font-semibold uppercase tracking-wider mb-2 block"
             style={{ color: 'var(--text-secondary)' }}>

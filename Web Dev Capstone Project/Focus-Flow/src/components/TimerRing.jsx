@@ -11,7 +11,7 @@ const TimerRing = ({ progress = 0, size = 220, strokeWidth = 10, children, activ
         className={`absolute inset-0 -rotate-90 ${active ? 'timer-active' : ''}`}
         viewBox={`0 0 ${size} ${size}`}
       >
-        {/* Background circle */}
+        
         <circle
           cx={size / 2}
           cy={size / 2}
@@ -20,7 +20,7 @@ const TimerRing = ({ progress = 0, size = 220, strokeWidth = 10, children, activ
           stroke="var(--border)"
           strokeWidth={strokeWidth}
         />
-        {/* Progress circle */}
+        
         <circle
           cx={size / 2}
           cy={size / 2}

@@ -65,7 +65,7 @@ const StartSessionModal = ({ onClose }) => {
           </p>
         </div>
 
-        {/* Mood */}
+
         <div className="mb-4">
           <label className="text-xs font-semibold uppercase tracking-wider mb-2 block" style={{ color: 'var(--text-secondary)' }}>
             How are you feeling?
@@ -90,7 +90,7 @@ const StartSessionModal = ({ onClose }) => {
           </div>
         </div>
 
-        {/* Tags */}
+
         <div className="mb-5">
           <label className="text-xs font-semibold uppercase tracking-wider mb-2 block" style={{ color: 'var(--text-secondary)' }}>
             Tags (optional)
@@ -113,7 +113,7 @@ const StartSessionModal = ({ onClose }) => {
           </div>
         </div>
 
-        {/* Actions */}
+
         <div className="flex gap-3">
           <button onClick={onClose} className="btn-secondary flex-1">Cancel</button>
           <button onClick={handleStart} className="btn-primary flex-1">

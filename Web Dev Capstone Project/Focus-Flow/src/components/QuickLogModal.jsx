@@ -92,7 +92,7 @@ const QuickLogModal = ({ onClose }) => {
           </div>
         </div>
 
-        {/* Description */}
+
         <div className="mb-4">
           <label className="text-xs font-semibold uppercase tracking-wider mb-2 block" style={{ color: 'var(--text-secondary)' }}>
             Description (optional)
@@ -137,7 +137,7 @@ const QuickLogModal = ({ onClose }) => {
           </div>
         </div>
 
-        {/* Note */}
+
         <div className="mb-5">
           <label className="text-xs font-semibold uppercase tracking-wider mb-2 block" style={{ color: 'var(--text-secondary)' }}>
             Note to self (optional)
@@ -151,7 +151,7 @@ const QuickLogModal = ({ onClose }) => {
           />
         </div>
 
-        {/* Actions */}
+
         <div className="flex gap-3">
           <button onClick={onClose} className="btn-secondary flex-1">Cancel</button>
           <button onClick={handleLog} className="btn-primary flex-1">

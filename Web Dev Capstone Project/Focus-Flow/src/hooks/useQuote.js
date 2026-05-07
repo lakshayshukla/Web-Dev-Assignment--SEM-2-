@@ -25,7 +25,7 @@ export const useQuote = () => {
     setLoading(true)
     setError(null)
     try {
-      // Use api-ninjas quotes (reliable, no CORS issues via allorigins)
+
       const proxyUrl = 'https://allorigins.win/get?disableCache=true&url=' + encodeURIComponent('https://zenquotes.io/api/random')
       const response = await axios.get(proxyUrl, { timeout: 6000 })
       const data = JSON.parse(response.data.contents)
@@ -35,7 +35,7 @@ export const useQuote = () => {
         throw new Error('Invalid response')
       }
     } catch {
-      // Fallback to curated local quotes
+
       const random = FALLBACK_QUOTES[Math.floor(Math.random() * FALLBACK_QUOTES.length)]
       setQuote(random)
       setError('offline')

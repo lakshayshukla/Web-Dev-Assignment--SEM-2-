@@ -38,7 +38,7 @@ const Sidebar = () => {
         </div>
       </div>
 
-      {/* Active session indicator */}
+     
       {activeSession && (
         <div className="mx-3 mt-3 px-3 py-2 rounded-xl text-xs font-medium flex items-center gap-2"
           style={{ background: 'rgba(34,197,94,0.1)', color: '#22c55e', border: '1px solid rgba(34,197,94,0.2)' }}>
@@ -47,7 +47,7 @@ const Sidebar = () => {
         </div>
       )}
 
-      {/* Navigation */}
+  
       <nav className="flex-1 p-3 space-y-1 mt-2">
         {NAV_ITEMS.map(item => (
           <NavLink
@@ -62,9 +62,9 @@ const Sidebar = () => {
         ))}
       </nav>
 
-      {/* Bottom area */}
+     
       <div className="p-4 border-t space-y-3" style={{ borderColor: 'var(--border)' }}>
-        {/* Dark mode toggle */}
+      
         <button
           onClick={() => dispatch(toggleDarkMode())}
           className="w-full flex items-center justify-between px-3 py-2 rounded-xl transition-all"
@@ -76,7 +76,7 @@ const Sidebar = () => {
           </div>
         </button>
 
-        {/* User */}
+    
         <div className="flex items-center gap-3 px-2">
           <div className="w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold"
             style={{ background: 'linear-gradient(135deg, #22c55e, #16a34a)', color: 'white' }}>
